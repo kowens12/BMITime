@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A6E174CD1EB8ED61005A9FFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E174CC1EB8ED61005A9FFF /* main.m */; };
+		A6E174D51EB8EE51005A9FFF /* BNRPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E174D41EB8EE51005A9FFF /* BNRPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		A6E174C91EB8ED61005A9FFF /* BMITime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BMITime; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E174CC1EB8ED61005A9FFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6E174D31EB8EE51005A9FFF /* BNRPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRPerson.h; sourceTree = "<group>"; };
+		A6E174D41EB8EE51005A9FFF /* BNRPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				A6E174CC1EB8ED61005A9FFF /* main.m */,
+				A6E174D31EB8EE51005A9FFF /* BNRPerson.h */,
+				A6E174D41EB8EE51005A9FFF /* BNRPerson.m */,
 			);
 			path = BMITime;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6E174CD1EB8ED61005A9FFF /* main.m in Sources */,
+				A6E174D51EB8EE51005A9FFF /* BNRPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +254,7 @@
 				A6E174D21EB8ED61005A9FFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
