@@ -10,4 +10,13 @@
 
 @implementation BNREmployee
 
+- (double)yearsOfEmployment {
+    if (self.hireDate) {
+        NSDate *now = [NSDate date];
+        NSTimeInterval secs = [now timeIntervalSinceDate:self.hireDate];
+        return secs;
+    } else {
+        return 0;
+    }
+}
 @end
