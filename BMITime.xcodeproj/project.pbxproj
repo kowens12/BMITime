@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A6E174CD1EB8ED61005A9FFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E174CC1EB8ED61005A9FFF /* main.m */; };
 		A6E174D51EB8EE51005A9FFF /* BNRPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E174D41EB8EE51005A9FFF /* BNRPerson.m */; };
+		A6E174EE1EBB5535005A9FFF /* BNREmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E174ED1EBB5535005A9FFF /* BNREmployee.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		A6E174CC1EB8ED61005A9FFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A6E174D31EB8EE51005A9FFF /* BNRPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRPerson.h; sourceTree = "<group>"; };
 		A6E174D41EB8EE51005A9FFF /* BNRPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRPerson.m; sourceTree = "<group>"; };
+		A6E174EC1EBB5535005A9FFF /* BNREmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNREmployee.h; sourceTree = "<group>"; };
+		A6E174ED1EBB5535005A9FFF /* BNREmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNREmployee.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				A6E174CC1EB8ED61005A9FFF /* main.m */,
+				A6E174EC1EBB5535005A9FFF /* BNREmployee.h */,
+				A6E174ED1EBB5535005A9FFF /* BNREmployee.m */,
 				A6E174D31EB8EE51005A9FFF /* BNRPerson.h */,
 				A6E174D41EB8EE51005A9FFF /* BNRPerson.m */,
 			);
@@ -124,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6E174EE1EBB5535005A9FFF /* BNREmployee.m in Sources */,
 				A6E174CD1EB8ED61005A9FFF /* main.m in Sources */,
 				A6E174D51EB8EE51005A9FFF /* BNRPerson.m in Sources */,
 			);
