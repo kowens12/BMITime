@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A605E4631EC0A82D00F236EC /* BNRAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = A605E4621EC0A82D00F236EC /* BNRAsset.m */; };
 		A6E174CD1EB8ED61005A9FFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E174CC1EB8ED61005A9FFF /* main.m */; };
 		A6E174D51EB8EE51005A9FFF /* BNRPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E174D41EB8EE51005A9FFF /* BNRPerson.m */; };
 		A6E174EE1EBB5535005A9FFF /* BNREmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E174ED1EBB5535005A9FFF /* BNREmployee.m */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A605E4611EC0A82D00F236EC /* BNRAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRAsset.h; sourceTree = "<group>"; };
+		A605E4621EC0A82D00F236EC /* BNRAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRAsset.m; sourceTree = "<group>"; };
 		A6E174C91EB8ED61005A9FFF /* BMITime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BMITime; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E174CC1EB8ED61005A9FFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A6E174D31EB8EE51005A9FFF /* BNRPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRPerson.h; sourceTree = "<group>"; };
@@ -64,6 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				A6E174CC1EB8ED61005A9FFF /* main.m */,
+				A605E4611EC0A82D00F236EC /* BNRAsset.h */,
+				A605E4621EC0A82D00F236EC /* BNRAsset.m */,
 				A6E174EC1EBB5535005A9FFF /* BNREmployee.h */,
 				A6E174ED1EBB5535005A9FFF /* BNREmployee.m */,
 				A6E174D31EB8EE51005A9FFF /* BNRPerson.h */,
@@ -132,6 +137,7 @@
 				A6E174EE1EBB5535005A9FFF /* BNREmployee.m in Sources */,
 				A6E174CD1EB8ED61005A9FFF /* main.m in Sources */,
 				A6E174D51EB8EE51005A9FFF /* BNRPerson.m in Sources */,
+				A605E4631EC0A82D00F236EC /* BNRAsset.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
